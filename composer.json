@@ -1,0 +1,7 @@
+{
+    "require": {
+        "google/apiclient": "^2.10",
+        "johngrogg/ics-parser": "^3.0",
+        "carbondate/carbon": "^1.33"
+    }
+}
