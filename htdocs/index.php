@@ -6,6 +6,13 @@ require_once '../vendor/autoload.php';
 use ICal\ICal;
 use Carbon\Carbon;
 
+/**
+* Récupérer un calendrier Google :
+** Paramètres
+** Choisir son calendrier
+** "Partager avec des personnes en particulier"
+** "Adresse secrète au format iCal"
+*/
 $calendars = [
     'velocite'  => 'http://www.velocite-montpellier.fr/?plugin=all-in-one-event-calendar&controller=ai1ec_exporter_controller&action=export_events',
 ];
